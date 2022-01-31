@@ -1,0 +1,101 @@
+/* IMPOSTAZIONI GENERALI */
+body {font-family: 'Comforter', cursive;
+    font-family: 'Raleway', sans-serif;
+ }
+
+/* HEADER */
+header {background-color: cornflowerblue;
+border-bottom: 2px solid blue;
+padding: 15px;
+padding-bottom: 35px;
+text-align: center;
+line-height: 1.6; 
+}
+
+h1 {color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+header h2 {font-weight: bold;
+font-variant: small-caps;
+margin-top: 20px;}
+
+h1 span {text-align: center;
+    margin-top: 30px;
+    color: cornflowerblue;
+    background-color: white;
+    }
+
+/* MAIN */
+main{margin: 30px;
+line-height: 1.5;
+text-align: center;}
+
+div h2 {text-transform: uppercase;
+color: rgb(74, 126, 223);
+margin-bottom: 20px;
+margin-top: 20px;
+font-size: 25px;
+font-weight: bold;
+}
+
+p b {font-weight: bold;}
+
+main figure img {border: 1px solid black;
+padding: 10px;}
+
+figure figcaption {font-weight: bold;
+margin-bottom: 15px;}
+
+     address {
+         text-align: left;
+         margin-left: 90px;
+         margin-bottom: 30px;
+         margin-left: 0px;
+         font-weight: bold;
+        }
+
+blockquote p { background-color: rgb(172, 166, 166);
+            border-bottom-left-radius: 10px;
+            border-top-left-radius:10px ;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding: 20px 30px 20px 30px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+
+hr {border: 1px dashed grey;
+margin: 50px 10px;
+}
+
+div p {
+text-align: left;
+margin-bottom: 10px;}
+
+strong {color: rgb(51, 206, 206);}
+
+h3 {font-weight: bold;
+text-align: left;
+margin-bottom: 17px;}
+
+mark {background-color: cadetblue;}
+
+p a {color: red;}
+
+section h2 {text-transform: uppercase;
+    color: rgb(74, 126, 223);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+
+    li {margin-left: 50px;}
+
+    
