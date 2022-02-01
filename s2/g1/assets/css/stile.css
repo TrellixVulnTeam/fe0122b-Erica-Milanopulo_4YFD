@@ -22,6 +22,13 @@ header {
     box-shadow: 0 3px 3px #444;
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
+    position: fixed;
+   top: -10px;
+   right: 37px;
+   left: 14px;
+   width: 98vw;
+   z-index: 5;
+    margin-top: 30px;
 }
 
 header div img {
@@ -51,12 +58,6 @@ nav ul li {
 }
 
 
-header {
-    position: fixed;
-   top: -10px;
-   width: 97.7vw;
-   z-index: 5;
-}
 /* MAIN */
 article p img {
     border: 5px solid rgb(108, 108, 233);
