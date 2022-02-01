@@ -23,6 +23,7 @@ header {
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
 }
+
 header div img {
     margin-bottom: 20px;
 }
@@ -65,19 +66,29 @@ float: left;
 margin-right: 15px;
 }
 
-#ancora {
-    position: fixed;
-    right: 0;
-top: 200px;
-}
 
 .far.fa-plus-square {
     color: blue;
     position: fixed;
     right: 0;
-    top: 150px
+    top: 250px;
+    font-size: 2.5em;
+    background-color: white;
 }
-
+.far.fa-caret-square-up {
+    font-size: 3em;
+       position: fixed;
+    right: 0;
+top: 395px;
+background-color: white;
+}
+.far.fa-calendar-alt { color: blue;
+    position: fixed;
+    right: 0;
+    top: 310px;
+    font-size: 2.5em;
+    background-color: white;
+}
 .float {
     display: inline-block;
     clear: left;
@@ -103,6 +114,7 @@ section h2 {
     text-transform: uppercase;
     margin-bottom: 1em;
 }
+
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 h1 {
