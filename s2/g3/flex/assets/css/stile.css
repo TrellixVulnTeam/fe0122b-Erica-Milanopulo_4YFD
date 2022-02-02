@@ -8,6 +8,49 @@ body {
     background-image: url('../img/sfondo.png');
     background-position: center center;
 }
+    @media screen and (min-width:500px) {
+        html {
+            font-size: 70%;
+        }
+        body {
+            line-height: 1.8;
+        }
+    
+        header div {
+         display: flex;
+         align-content: space-between;
+         padding: 0.6em 0.8em;
+     }
+ 
+     header div p,header div img  {
+     flex-grow: 1;
+    }
+    div.piccolo { display: flex; 
+        justify-content: space-evenly;
+    }
+
+   .piccolo div {
+       flex-basis: 29%;
+       
+   } }
+
+    @media screen and (min-width:700px) {
+        html {
+            font-size: 80%;
+        }
+        body {
+            line-height: 2;
+        }
+    }
+    @media screen and (min-width:1200px) {
+        html {
+            font-size: 100%;
+        }
+        body {
+            line-height: 2.4;
+        }
+    }
+
 * {box-sizing: border-box;}
 hr {display: none;} /* rimuove l'elemento */
 
@@ -49,6 +92,34 @@ header {
     top: 0;
     z-index: 10;
 }
+@media screen and (min-width:800px) {
+    header {
+        padding: 1.3em;
+    }
+
+    article.clearfix iframe {
+        display: none;
+    }
+
+ main {
+     display: flex;
+ }
+.piccolo {
+    flex-direction: column-reverse;
+    width: 30vw;
+    margin-left: 80px ;
+}
+aside h2 {
+    font-size: 0.7em;
+}}
+
+
+
+@media screen and (min-width:800px) {
+        header {
+            padding: 1em;
+        }
+    }
 header div img {
     margin-bottom: 20px;
 }
@@ -81,6 +152,12 @@ main {
     padding: 2em 1em;
     margin-bottom:1.5em ;
 }
+    @media screen and (min-width:700px) {
+        main {
+            padding: 2em;
+        }
+    }
+
 section { 
     background-color: #e3e3e3;
     padding: 2.5em 1em 1em;
@@ -155,6 +232,17 @@ iframe {
 table {
     margin-bottom: 2em;
 }
+    @media screen and (min-width:500px) {
+        table {
+            margin: 0 auto 2em;
+        }
+    }
+    @media screen and (min-width:700px) {
+        table {
+            width: 70%;
+        }
+    }
+
 caption {
     font-weight: bold;
     font-style: italic;
@@ -193,9 +281,24 @@ button {
     color: white;
     font-weight: bold;
 }
+    @media screen and (min-width:500px) {
+        input {
+            display: inline-block;
+            width: 70%;
+        }
+    }
+    @media screen and (min-width:700px) {
+        input {
+            padding: 15px;
+        }
+        button {
+            padding: 15px 30px;
+        }
+    
+    }
 
 /* ELEMENTI NELL' ASIDE */
-aside h2 {
+h2.cambio {
     text-align: center;
     color: #333;
     font-size: 2rem;
@@ -203,7 +306,7 @@ aside h2 {
     text-transform: uppercase;
     margin-bottom: 1em;
 }
-aside div {
+aside .piccolo div {
     background-color: #e3e3e3;
     border: 1px solid #c3c3c3;
     margin-bottom: 1em;
@@ -226,148 +329,39 @@ footer {
     text-align: center;
     font-size: 1.2rem;
 }
+    @media screen and (min-width:800px) {
+        footer {
+            padding: 1em 12em;
+        }
+    }
+
 footer a {
     color: fuchsia;
 }
 
-@media screen and (min-width: 450px) {
-    table.responsive {
-        margin-right: auto;
+
+@media screen and (min-width:1200px) {
+    header, main, footer {
+        max-width: 1200px;
         margin-left: auto;
-    }
-    body {
-    font-size: 1.5em;
-    line-height: 1.5;}
-    
-}
-
-@media screen and (min-width: 620px) {
-    body {
-        font-size: 1.7em;
-        padding: 50px;
-        line-height: 2;
-    }
-
-    header {
-        height: 90px;
-    }
-
-    .imgLeft {
-        width: 90px;
-        height: auto;
-    }
-    article.clearfix h1 {
-        font-size: 1.5em;
-    }
-    #user_email  {
-        width: 50%;
-        font-size: 1.1em;
-        margin-right: 5px;
-     }
-     form fieldset button {
-        width: 25%;
-        font-size: 1.1em;
-        padding: 5px;
-      }
-      footer {
-        font-size: 0.7em;
-    }
-    
-}
-
-@media screen and (min-width: 693px) {
-    body {
-        font-size: 2em;
-        padding: 50px;
-        line-height: 2;
-    }
-
-    header div img {
-        width: 30%;
-        height: auto;
-    }
-
-    nav ul li {
-        padding-right: 20px;
-    }
-
-    .imgLeft {
-        width: 110px;
-        height: auto;
-    }
- article.clearfix h1 {
-     font-size: 1.5em;
- }   
-  footer {
-      font-size: 0.8em;
-  }
-}
-
-@media screen and (min-width: 890px) {
-    .imgLeft {
-        width: 115px;
-        height: auto;
-    }
-}
-
-@media screen and (min-width: 910px) {
-    body {
-        font-size: 2.3em;
-    }
-.prop {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-article.clearfix iframe {
-    height: 200px;
-}}
-
-@media screen and (min-width: 1200px) {
-    .imgLeft {
-        width: 95px;
-        height: auto;
-    }
-}
-
-@media screen and (min-width: 1667px) {
-    main {
-        padding: 50px;
-    }
-    .imgLeft {
-        width: 60px;
-        height: auto;
-    }
-    .lista {
-        margin-top: 50px;
+        margin-right: auto;
     }
 }
 
 @media print {
-header {
-    display: none;
+    body {
+        font-size: 24px;
+        padding: 0;
+        background-image: none;
     
-}
-main {
-    box-shadow: none;
-    font-size: 1.7em;
-}
-.imgLeft {
-    width: 60px;
-height: auto;}
-}
-
-.social, .toTop {
-    display: none;
-}
-iframe {display: none;}
-
-article.clearfix section {
-    display: none;
-}
-
-main aside {
-    display: none;
-}
-
-footer {display: none;}
+    }
+    main {
+        box-shadow: none;
+        margin: 0;
+    }
+    th {
+        background-color: #d3d3d3;
+    }
+    header, article section, aside, footer, .social, .toTop {
+        display: none;
+    } }
