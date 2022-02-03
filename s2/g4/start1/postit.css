@@ -1,3 +1,54 @@
-div {
+body {font-family: 'Indie Flower';
+font-size: 1.7em;}
+
+p {
+    
+    text-align: center ;
+    padding-top: 20px;
+}
+
+.titolo {
+    font-weight: bold;
+font-size: 1.5em;
+margin-top: 25px;}
+
+.wrapper {
     background-color: grey;
+    border: 1px transparent gray;
+    width: 65%;
+    height: 550px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 95px;
+    padding-top: 30px;
+}
+
+.items {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.items:hover {
+    transform: rotate(0deg);
+}
+
+div.items.giallo {
+    background-color: rgba(211, 211, 173, 0.938);
+    transform: rotate(-4deg);
+}
+
+div.items.verde { background-color: rgb(180, 218, 180);
+    transform: rotate(4deg);
+}
+
+div.items.viola {background-color: rgb(177, 174, 221);
+transform: rotate(9deg);}
+
+.items.verde.rotate {
+    transform: rotate(2deg);
 }

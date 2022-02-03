@@ -34,7 +34,7 @@ position: absolute;margin-left: 5px;}
 }
 
 div i:nth-child(1) {
-    
+    opacity: 0;
     animation-name: parolealt;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -43,6 +43,7 @@ div i:nth-child(1) {
 
 
 div i:nth-child(2) {
+    opacity: 0;
     animation-name: parolealt;
     animation-duration: 5s;
     animation-iteration-count: infinite;
