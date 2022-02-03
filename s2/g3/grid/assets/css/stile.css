@@ -127,12 +127,10 @@ main {
         }
     }
 
-main section {
-    position: fixed;
-    top: 500px;
-    right: 45px;
-    width: 35.5%;
-    height: auto;
+div aside section {
+    margin-top: 75px;
+    position: sticky;
+    top: 325px;
 }
 
 section { 
@@ -292,6 +290,11 @@ aside div p:last-child {
     margin-bottom: 0;
     font-size: 0.8em;
     text-align: right;
+}
+
+div aside section {
+    position: sticky;
+    top: 220px;
 }
 
 
