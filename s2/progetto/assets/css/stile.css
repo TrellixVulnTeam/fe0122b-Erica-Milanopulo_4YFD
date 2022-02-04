@@ -336,6 +336,10 @@ button.contatti {
     padding: 10px 20px;
 }
 
+address.contatti {
+    font-size: 0.9em;
+}
+
 
 
 /* RESPONSIVE */
