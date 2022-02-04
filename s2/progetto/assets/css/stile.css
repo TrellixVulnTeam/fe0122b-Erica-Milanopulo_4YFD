@@ -1,0 +1,488 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.8;
+}
+
+form button {
+    font-size: 1.9rem;
+    color: white;
+    background-image: linear-gradient(to right, #6cc1e2 60%, #392f7a);
+    border: 0px;
+    box-shadow: 2px 2px 3px #666;
+    padding: 10px 20px;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    box-shadow: 2px 2px 6px #d3d3d3;
+}
+
+header div img {
+    padding: 20px 20px;
+    width: 120px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(121, 118, 118);
+    font-weight: bold;
+}
+
+
+
+/* MAIN */
+main.contatti {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    line-height: 1.1;
+    letter-spacing: 4px;
+    font-size: 1.8em;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 20px 20px 20px;
+    color: white;
+    text-shadow: 4px 0px 4px #333;
+
+}
+
+div.banner p {
+    font-size: 0.7em;
+    padding-bottom: 10px;
+}
+
+button.primo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: 0.2px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+h2.contatti {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: 0.2px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+address {
+    padding: 15px 20px;
+}
+
+address p {
+    text-align: center;
+}
+
+address p a {
+    text-decoration: none;
+    color: #000;
+}
+
+p.contat {
+    padding-bottom: 30px;
+}
+
+address h2:nth-of-type(2) {
+    margin-bottom: 15px;
+}
+section.centro div p {
+    padding-top: 14px;
+    padding-bottom: 25px;
+}
+
+section.centro p {
+    padding-bottom: 40px;
+    font-size: 0.8em;
+}
+
+.perche {
+    padding: 15px 40px;}
+
+section.centro {
+    margin: 30px 20px 30px 20px;
+    text-align: center;
+}
+
+div.centro p {
+    font-size: 0.7em;
+}
+
+div p i {
+    padding: 0;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+i {
+    color: #e42424;
+    font-size: 1.3em;
+}
+
+div.developer {
+    background-color: rgb(16, 16, 80);
+    color: white;
+    padding: 90px 25px;
+}
+
+div.developer p {
+    font-size: 0.7em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.submit {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.contenuto {
+    margin: 30px 20px;
+    text-align: center;
+}
+
+div.contenuto div p {
+    font-size: 0.7em;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+body.chisiamo {
+    font-size: 1em;
+   
+}
+
+main.chisiamo {text-align: center; padding: 15px 20px;
+    
+}
+
+section.siamo { padding: 20px;}
+
+h1.chisiamo {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 1.4;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+h1.contatti {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 1.4;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+p.chisiamo {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+img.chisiamo {
+    width: 90%;
+    height: auto;
+}
+
+div.siamo p {
+   padding-bottom: 30px;
+}
+
+table {border: 1px solid black;
+    table-layout: fixed;
+width: 90%;
+height:300px;
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+text-align:center;
+margin-bottom: 50px;
+margin-top: 20px;}
+
+td, th {padding-top: 25px;
+padding-bottom: 25px;}
+
+th {
+    background-color: #5f86b1;
+}
+
+td.colora { background-color: #d2dce7;}
+
+table caption {
+    font-size: 1.8em;
+}
+input#hamburger {
+        display: none;
+    }
+
+    form#contatti {
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+li input.contatti {width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+button.contatti {
+    margin-top: 15px;
+}
+
+
+input#phone {
+    height: 150px;
+}
+/* FOOTER */
+footer {
+    background-color: rgb(238, 238, 238);
+    padding: 50px 60px;
+}
+
+footer.chisiamo {
+    background-color: rgb(238, 238, 238);
+    padding: 50px 60px;
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h4.chisiamo {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+section div p {
+    font-size: 0.7em;
+    padding-bottom: 20px;
+}
+
+div label {
+    font-size: 0.9em;
+}
+
+.footer {
+    width: 100%;
+}
+
+footer input[type="text"] {
+    height: 40px;
+    width: 99%;
+    padding: 0px 0px;
+    margin-top: 15px;
+}
+
+footer i {
+    font-size: 1.9em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p.copy {
+    font-size: 0.6em;
+    margin-top: 15px;
+    text-align: center;
+}
+
+p.copy.chisiamo {font-size: 0.7em;}
+
+nav.chisiamo ul {padding-right: 30px;}
+
+nav.chisiamo ul li {
+    font-size: 1em;
+    padding-top: 30px;
+}
+
+fieldset ol li {
+    padding-bottom: 6px;
+}
+
+input[type= textarea] {height:30px}
+
+button.contatti {
+    font-size: 1.9rem;
+    color: white;
+    background-image: linear-gradient(to right, #6cc1e2 60%, #392f7a);
+    border: 0px;
+    box-shadow: 2px 2px 3px #666;
+    padding: 10px 20px;
+}
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 760px) {
+    #logo {width: 155px;
+    margin-top: 5px;} 
+
+    nav ul {
+        position: absolute;
+        top: 29px;
+        right: 22px;
+        background-color: white;
+        border: 0.3px solid rgb(180, 203, 238);
+        border-radius: 2%;
+        max-width: 50vw;
+        height: auto;
+        box-shadow: 2px 2px 6px #666;
+        list-style: none;
+        padding: 30px;
+        visibility: hidden;
+    }
+
+    
+    .iconMenu {
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        font-size: 1em;
+        color: red;
+    }
+
+    .iconMenu:hover~nav ul {
+        visibility: visible;
+    }
+
+    nav ul li {
+        padding: 15px;
+    }
+
+    ul li a {
+        font-size: 0.9em;
+    }
+
+    form button {
+        font-size: 0.9em;
+    }
+
+    .pc {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 761px) {
+    i.fa-ellipsis-h {display: none;}
+
+    nav ul li {
+        display: inline-block;
+        font-size: 0.7em;
+        padding-top: 20px;
+        padding-right: 22px;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #logo {
+        width: 150px;
+        padding-left: 30px;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    form button {
+        font-size: 1.1em;
+        margin-right: 30px;
+    }
+
+    .banner {
+        padding: 70px 100px;
+    }
+
+    div.wrapper {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    div.centro {
+        width: 25%;
+    }
+
+    section.wrapper {
+        display: flex;
+        margin: 40px 20px 40px 15px;
+        justify-content: center;
+    }
+
+    div.contenuto {
+        margin-top: 60px;
+    }
+
+    div.box {
+        text-align: left;
+        margin-left: 20px
+    }
+
+    section.fWrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.fWrapper {
+        width: 28%;
+    }
+    div.cont {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    div.cont div {width: 45%;}
+    
+    section.contatti {
+        display:flex;
+        justify-content: space-evenly;
+    }
+    section.contatti div, address {
+        width: 40%;
+    }}
+
+    h1.contatti {
+        margin-bottom: 15px;
+    }
+
+    fieldset ol {
+        list-style-type: none;;
+    }
+
+
+@media screen and (min-width:1100px)  {
+    #logo {padding-left:  160px;
+    margin-top:10px;}
+
+    nav ul {padding-right: 110px;}
+}
