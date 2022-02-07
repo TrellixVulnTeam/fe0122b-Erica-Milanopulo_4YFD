@@ -1,0 +1,49 @@
+/*IMPORT*/
+body {
+  background-image: url(../img/cia.jfif);
+  background-size: cover; }
+
+.container nav {
+  padding: 30px;
+  text-align: center; }
+
+.container h1 {
+  color: #0c1f41; }
+
+.container .logo {
+  font-size: 10vw;
+  margin-top: 0px;
+  margin-bottom: 0.3em;
+  color: #0c1f41; }
+
+.container ul {
+  padding: 0px; }
+  .container ul li {
+    display: inline;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 1.4em;
+    text-decoration: none; }
+  .container ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; }
+
+.showcase-content {
+  display: flex;
+  font-size: 1.3em; }
+  .showcase-content img {
+    display: none; }
+
+.btn-primary, .btn-secondary {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 30px 20px;
+  background-color: #79d6da;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+  color: black; }
+  .btn-primary:hover, .btn-secondary:hover {
+    background-color: aquamarine; }

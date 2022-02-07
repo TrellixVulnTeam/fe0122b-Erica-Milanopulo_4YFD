@@ -1,0 +1,59 @@
+
+/*IMPORT*/
+@import "variabili";
+@import "bottoni";
+
+body{
+    background-image: url(../img/cia.jfif);
+    background-size: cover;
+}
+   
+.container {
+nav {padding: 30px;
+text-align: center;}
+
+h1 {color: $colore-titoli;}
+
+.logo { font-size: 10vw;
+margin-top: 0px;
+margin-bottom: 0.3em;
+color: $colore-titoli;
+}
+
+ul { padding: 0px;
+    
+    li {display: inline;
+padding-left: 7px;
+padding-right: 7px;
+font-size: 1.4em;
+text-decoration: $decorazione;}
+
+a {text-decoration: none;
+color: black;
+font-weight: bold;}
+}}
+
+
+.showcase-content  {
+ display: flex; 
+ font-size: $grandezza-testo;
+    
+    img {
+    display: none;
+    }
+}
+
+.btn-primary, .btn-secondary {
+    border: $bordo-bottoni;
+    padding: $spazio;
+    margin: $margini;
+    background-color: $sfondo-bottoni;
+    display: inline-block;
+    text-align: center;
+    text-decoration: $decorazione;
+    border-radius: $stondare;
+    color: $colore-primario;
+    
+
+    &:hover {background-color: aquamarine;}
+}
