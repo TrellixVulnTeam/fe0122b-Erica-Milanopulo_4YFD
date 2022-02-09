@@ -1,0 +1,44 @@
+body{
+    font-size: 1em;
+}
+
+.container {text-align: center;}
+.titolo {
+    text-align: center;
+    color: rgb(156, 12, 12);
+}
+
+.container.secondo {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+}
+
+.terzo {
+    background-color: yellow;
+    color: black;
+}
+
+.rigatre, .ciao,.quat, .tre{
+    border: 1px solid black;
+}
+
+h2 {text-align: center;}
+
+.quattro {
+    background-color: green;
+}
+
+.cinque {
+    background-color: red;
+    color: white;
+}
+
+.diverso {
+    margin-top: 30px;
+   
+}
+
+.tre {
+     padding: 16px;
+}
