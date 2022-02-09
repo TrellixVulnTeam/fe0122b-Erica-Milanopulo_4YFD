@@ -1,0 +1,72 @@
+@import "variabili";
+
+/*MIXINS*/
+
+@mixin menu {
+    list-style: none;  
+    text-transform: uppercase;
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+
+/*proprietà*/
+body {
+    font-size: $grandezza-font;
+    line-height: 35px; 
+}
+
+#main {
+  padding-right: 20px;  
+}
+
+p {
+    width: 60%;
+    margin-right: 0;
+    margin-left: auto;
+    text-align: justify;    ;
+}
+
+    #header {
+    border-bottom: $bordo-header;
+    background-color: $back-color;
+    padding: 20px 10px;
+border-radius: 6px;
+width: 95%;
+margin-left: auto;
+margin-right: auto}
+
+
+#main-menu ul li {
+    @include menu;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.titolo {
+    color: $colore-primario;
+    font-size: $grandezza-font*2;
+    text-align: $allineamento;
+}
+
+h2.titolo {
+    font-size: $grandezza-font + 1 ;
+}
+
+.warning-button {
+    border: 1px solid $colore-primario;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: $back-color;
+    padding: 10px 30px;
+    text-align: right;
+}
+
+#sidebar ul li {
+    
+}
