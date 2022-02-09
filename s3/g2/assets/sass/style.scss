@@ -26,7 +26,7 @@ p {
     width: 60%;
     margin-right: 0;
     margin-left: auto;
-    text-align: justify;    ;
+    text-align: justify;    
 }
 
     #header {
@@ -50,13 +50,15 @@ ul li a {
 
 .titolo {
     color: $colore-primario;
-    font-size: $grandezza-font*2;
+    font-size: $grandezza-font+ 2 ;
     text-align: $allineamento;
+    padding-right: $padding-corpo
 }
 
 h2.titolo {
-    font-size: $grandezza-font + 1 ;
+    font-size: $grandezza-font+1;
 }
+
 
 .warning-button {
     border: 1px solid $colore-primario;
@@ -65,8 +67,19 @@ h2.titolo {
     background-color: $back-color;
     padding: 10px 30px;
     text-align: right;
+    margin-right: 0px;
+    padding-right: $padding-corpo ;
+}
+#sidebar ul {
+    margin-left: 60%
+    
 }
 
 #sidebar ul li {
-    
+    @include menu;
+    border: 1px solid grey;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
 }
