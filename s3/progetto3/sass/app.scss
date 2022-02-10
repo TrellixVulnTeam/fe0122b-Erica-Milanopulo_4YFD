@@ -1,21 +1,109 @@
+/*IMPORT*/
 @import "function";
 
+/*VARIABILI*/
 $bg-color-dark: rgb(15, 13, 102);
 $bg-color-light: white;
 $bg-secondary: rgba(178, 180, 212, 0.609);
+$colore-bot: rgb(66, 101, 195);
+$main-marg: 90px;
+$pad: 30px;
 
-nav {background-color: $bg-color-dark;
-color: color-contrast($bg-color-dark);}
+/*MIXIN*/
+@mixin bott {
+    
+    margin-bottom: $pad;
+    font-size: 1.1em;
+}
 
-main {background-color: $bg-color-light;
-color: color-contrast($bg-color-light);}
 
-    img {
-        width: 96%;
-    }
+body {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
 
-section {
-    background-color: $bg-secondary;
+nav,
+footer {
+    background-color: $bg-color-dark;
+    color: color-contrast($bg-color-dark);
+}
+
+#navigazione  {
+    padding-top: $pad;
+    padding-bottom: $pad;
+    font-size: 1.3em;
+}
+
+#logo {
+    font-size: 1.1em;
+    font-style:italic;
+}
+main {
+    background-color: $bg-color-light;
     color: color-contrast($bg-color-light);
 }
 
+.redit {
+    width: 97%;
+    height: 340px;
+}
+
+h2 {
+    font-size: 2.1rem;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    margin-bottom: $main-marg;
+}
+
+section:first-of-type {
+    margin-top: $main-marg;
+}
+
+.prima {
+    background-color: $bg-secondary;
+    color: color-contrast($bg-color-light);
+    text-align: center;
+}
+
+.bottone {
+    @include bott();
+background-color: $colore-bot;
+color: color-contrast($bg-color-dark);
+padding: 10px 20px;
+}
+
+.sapciale {
+    @include bott();
+    background-color: white;
+    color: $colore-bot;
+    font-weight: 500;
+    padding: 11px 30px;
+}
+
+.basso, .present {
+    margin-top: $pad;
+}
+
+section:nth-child(2) {
+    padding: 60px;
+}
+
+.mezzo {
+    padding-top: $pad;
+}
+
+.separ {
+    padding-bottom: 10px;
+}
+
+.icone {
+    font-size: 1.5em;
+    color: $colore-bot;
+}

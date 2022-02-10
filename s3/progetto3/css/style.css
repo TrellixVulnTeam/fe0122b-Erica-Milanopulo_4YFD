@@ -1,14 +1,78 @@
-nav {
+/*IMPORT*/
+/*VARIABILI*/
+/*MIXIN*/
+body {
+  font-size: 1.1rem;
+  line-height: 1.7; }
+
+nav,
+footer {
   background-color: #0f0d66;
   color: #fff; }
+
+#navigazione {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 1.3em; }
+
+#logo {
+  font-size: 1.1em;
+  font-style: italic; }
 
 main {
   background-color: white;
   color: #000; }
 
+.redit {
+  width: 97%;
+  height: 340px; }
+
+h2 {
+  font-size: 2.1rem;
+  padding-bottom: 10px; }
+
 img {
-  width: 96%; }
+  width: 100%;
+  height: auto; }
 
 section {
+  margin-bottom: 90px; }
+
+section:first-of-type {
+  margin-top: 90px; }
+
+.prima {
   background-color: rgba(178, 180, 212, 0.609);
-  color: #000; }
+  color: #000;
+  text-align: center; }
+
+.bottone {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  background-color: #4265c3;
+  color: #fff;
+  padding: 10px 20px; }
+
+.sapciale {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  background-color: white;
+  color: #4265c3;
+  font-weight: 500;
+  padding: 11px 30px; }
+
+.basso, .present {
+  margin-top: 30px; }
+
+section:nth-child(2) {
+  padding: 60px; }
+
+.mezzo {
+  padding-top: 30px; }
+
+.separ {
+  padding-bottom: 10px; }
+
+.icone {
+  font-size: 1.5em;
+  color: #4265c3; }
