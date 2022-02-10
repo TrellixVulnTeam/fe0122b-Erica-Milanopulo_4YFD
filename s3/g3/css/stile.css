@@ -42,3 +42,27 @@ h2 {text-align: center;}
 .tre {
      padding: 16px;
 }
+
+.esterne {
+    background-color: rgb(44, 156, 221);
+}
+
+.int {
+    background-color: gray;
+}
+
+.esterne, .int {
+    border: 1px solid black;
+    color: white;
+    padding: 16px;
+}
+
+.bello {
+    border: 1px solid black;
+}
+
+.ultimo {
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
