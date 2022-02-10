@@ -1,3 +1,21 @@
 @import "function";
 
-h {background-color: red;}
+$bg-color-dark: rgb(15, 13, 102);
+$bg-color-light: white;
+$bg-secondary: rgba(178, 180, 212, 0.609);
+
+nav {background-color: $bg-color-dark;
+color: color-contrast($bg-color-dark);}
+
+main {background-color: $bg-color-light;
+color: color-contrast($bg-color-light);}
+
+    img {
+        width: 96%;
+    }
+
+section {
+    background-color: $bg-secondary;
+    color: color-contrast($bg-color-light);
+}
+
