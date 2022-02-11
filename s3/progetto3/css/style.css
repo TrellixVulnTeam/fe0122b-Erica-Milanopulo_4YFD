@@ -158,15 +158,25 @@ section:nth-child(3) {
   border-radius: 100%; }
 
 .testim {
-  color: white;
-  text-align: left;
+  color: #00aeff;
+  text-align: center;
   font-weight: bold;
-  font-size: 1.3em;
-  padding-left: 15%; }
+  font-size: 1em;
+  padding-left: 15%;
+  border: 3px solid black;
+  width: 50%; }
   @media screen and (max-width: 1205px) {
     .testim {
       font-size: 1em;
       padding-left: 0; } }
+  @media screen and (min-width: 768px) and (max-width: 1002px) {
+    .testim {
+      font-size: 0.8em;
+      padding-left: 0; } }
+
+.carousel-indicators {
+  position: absolute;
+  top: 108%; }
 
 @media screen and (max-width: 767px) {
   .Druf {
@@ -178,6 +188,10 @@ section:nth-child(3) {
 
 .dice {
   margin-bottom: 45px; }
+
+.imagg {
+  margin-left: 30px;
+  margin-right: 30px; }
 
 footer {
   padding: 50px 50px;
