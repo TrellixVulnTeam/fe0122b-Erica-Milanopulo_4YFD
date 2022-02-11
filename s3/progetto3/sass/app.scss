@@ -3,22 +3,28 @@
 
 /*VARIABILI*/
 $bg-color-dark: rgb(15, 13, 102);
-$bg-color-light: white;
+$bg-color-light: rgb(255, 255, 255);
 $bg-secondary: rgba(178, 180, 212, 0.609);
 $colore-bot: rgb(66, 101, 195);
 $main-marg: 90px;
 $pad: 30px;
+$sfumature: 1px 2px rgb(19, 86, 173);
+
 
 /*MIXIN*/
 @mixin bott {
-    
     margin-bottom: $pad;
     font-size: 1.1em;
+    box-shadow: 2px 2px 3px #666;
+    @media screen and (max-width: 991px) {
+        padding: 15px 50px;
+        margin-bottom: 10px;
+    }
 }
 
 
 body {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.7;
 }
 
@@ -26,6 +32,7 @@ nav,
 footer {
     background-color: $bg-color-dark;
     color: color-contrast($bg-color-dark);
+    box-shadow: 2px 2px 3px #666;
 }
 
 #navigazione  {
@@ -51,12 +58,17 @@ main {
 h2 {
     font-size: 2.1rem;
     padding-bottom: 10px;
+    text-align: center;
 }
+
+h3 {text-align: center;}
 
 img {
     width: 100%;
     height: auto;
+    border-radius: 2%;
 }
+
 
 section {
     margin-bottom: $main-marg;
@@ -65,6 +77,7 @@ section {
 section:first-of-type {
     margin-top: $main-marg;
 }
+
 
 .prima {
     background-color: $bg-secondary;
@@ -76,7 +89,11 @@ section:first-of-type {
     @include bott();
 background-color: $colore-bot;
 color: color-contrast($bg-color-dark);
-padding: 10px 20px;
+padding: 10px 30px;
+&:hover {
+    background-color: white;
+    color: $colore-bot;
+}
 }
 
 .sapciale {
@@ -84,26 +101,142 @@ padding: 10px 20px;
     background-color: white;
     color: $colore-bot;
     font-weight: 500;
-    padding: 11px 30px;
+    padding: 11px 40px;
+    &:hover {
+        background-color: $colore-bot;
+color: color-contrast($bg-color-dark);
+    }
+    @media screen and (max-width: 991px) {
+        padding-right: 60px;
+        padding-left: 60px;
+}}
+
+.cambio {
+    @media screen and (max-width: 991px) {
+        margin-top: 15px;
+    }
 }
 
-.basso, .present {
+.basso, .present  {
     margin-top: $pad;
 }
 
 section:nth-child(2) {
-    padding: 60px;
+    padding: 70px;
 }
 
-.mezzo {
+.mezzo  {
     padding-top: $pad;
 }
 
+section:nth-child(3) {
+    margin-bottom: 60px;
+}
+
 .separ {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    @media screen and(max-width: 991px) {
+        margin-bottom: $pad;
+    }
 }
 
 .icone {
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: $colore-bot;
+}
+
+.numero {
+    font-size: 2.1em;
+    color: $colore-bot;
+    text-shadow: $sfumature;
+}
+
+.part {
+    width: 166px;
+    height: 110px;
+}
+
+.partner {
+    margin-bottom: 65px;
+}
+
+.Pr {text-align: center;}
+
+
+.abbas {padding-top: 45px;
+    padding-left: ($pad / 2);
+}
+
+.resiz {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.test {
+    margin-top: ($pad / 2);
+}
+
+.ciaf {
+    margin-bottom: ($pad / 2);
+}
+
+.clamb {
+   width: 40%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 100%;
+}
+
+.testim {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-left: 15%;
+    @media screen and(max-width: 1205px) {
+        font-size: 1em;
+        padding-left: 0;
+    }
+}
+
+.Druf  {
+    @media screen and(max-width: 767px) {
+        margin-bottom: 40px;
+    }
+}
+
+.Midi  {
+    @media screen and(max-width: 991px) {
+margin-top: $pad;
+    }}
+
+.dice {
+    margin-bottom: 45px;
+}
+
+footer {
+    padding: 50px 50px;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 0.8em;
+}
+
+.allineam, .piccolo {
+    @media screen and(max-width: 991px) {
+       text-align: center;
+     }
+}
+
+.Ipied {
+    padding-top: 20px;
+    padding-bottom: 55px;
+    font-size: 1.2em;
+}
+
+.Su {
+    color: white;
+    font-size: 1.7em;
+    &:hover {
+        color: $colore-bot;
+    }
 }
