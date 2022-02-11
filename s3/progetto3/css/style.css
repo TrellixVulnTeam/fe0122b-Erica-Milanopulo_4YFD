@@ -1,5 +1,4 @@
 /*IMPORT*/
-/*VARIABILI*/
 /*MIXIN*/
 body {
   font-size: 1.2rem;
@@ -131,6 +130,16 @@ section:nth-child(3) {
 .abbas {
   padding-top: 45px;
   padding-left: 15px; }
+  @media screen and (max-width: 1399px) {
+    .abbas {
+      font-size: 0.8em; } }
+  @media screen and (max-width: 1199px) {
+    .abbas {
+      font-size: 0.7em;
+      padding-top: 20px; } }
+  @media screen and (max-width: 991px) {
+    .abbas {
+      font-size: 0.9em; } }
 
 .resiz {
   font-size: 0.8em;
