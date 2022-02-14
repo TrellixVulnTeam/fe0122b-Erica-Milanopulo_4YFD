@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercitazione s4g1</title>
+</head>
+
+<body id="grow">
+
+    <h1 id="titolo">Pratica con Java Script</h1>
+
+
+    <button id="bottone" onclick="changeBackColor()">Cambia colore</button>
+
+    <button onclick="changeButtonStyle()">Cambia colore bottone</button>
+    
+    <button onclick="cresci()">Ingrandisci font-size</button>
+
+
+    <div>
+        <h2>Somma</h2>
+        <p>15 + 18 quanto fa?</p> <br>
+        <p id="operazioni"></p>
+    </div>
+
+    <button onclick="reset()">Ripristinare elementi originali</button>
+
+    <!--SCRIPT-->
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        alert('Esercizio s4g1');
+
+
+        var numero1 = 15;
+        var numero2 = 18;
+        var numero3 = 10;
+        document.getElementById('operazioni').innerHTML = (numero1 + numero2) / (numero3 + 1);
+
+    </script>
+
+</body>
+
+</html>
