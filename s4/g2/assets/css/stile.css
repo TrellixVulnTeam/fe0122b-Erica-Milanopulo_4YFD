@@ -1,0 +1,26 @@
+* {
+    font-size: 1.1em;
+}
+
+th,
+td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+caption {
+    border: 2px solid green;
+    padding: 15px 20px;
+}
+
+#dato10,
+#dato11,
+#dato12 {
+    color: red;
+}
+
+#autore {
+    background-color: aquamarine;
+    text-align: center;
+    color: rgb(228, 160, 219);
+}
