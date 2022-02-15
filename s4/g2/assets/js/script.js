@@ -20,10 +20,10 @@ function somma2() {
 somma2();
 
 function somma3() {
-    var datiTre = document.getElementById('dato3').innerHTML * 1;
-    datiTre += document.getElementById('dato6').innerHTML * 1;
-    datiTre += document.getElementById('dato9').innerHTML * 1;
-    document.getElementById('dato12').innerHTML = (datiTre);
+    var datiTre = document.getElementById('dato3').innerHTML * 1;  //assegno alla variabile il valore di dato3
+    datiTre += document.getElementById('dato6').innerHTML * 1;     //incremento variabile sommandola con dato6
+    datiTre += document.getElementById('dato9').innerHTML * 1;    //incremento ancora sommando anche dato9
+    document.getElementById('dato12').innerHTML = (datiTre);     //assegno il risultato a dato12
 }
 somma3();
 
@@ -54,3 +54,5 @@ console.log(numero+boolean);
 var nome='Erica';
 var cognome='Milanopulo';
 document.getElementById('autore').innerHTML= (nome + " " + cognome);
+
+alert('Benvenuto/a');
