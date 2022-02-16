@@ -4,12 +4,14 @@ var datiTre = 0;
 
 
 function somma1() {
-    var datiUno = document.getElementById('dato1').innerHTML * 1;
+    let datiUno = document.getElementById('dato1').innerHTML * 1;
     datiUno += document.getElementById('dato4').innerHTML * 1;
     datiUno += document.getElementById('dato7').innerHTML * 1;
     document.getElementById('dato10').innerHTML = (datiUno);
+    console.log(datiUno);
 }
 somma1();
+console.log(datiUno);
 
 function somma2() {
     var datiDue = document.getElementById('dato2').innerHTML * 1;
