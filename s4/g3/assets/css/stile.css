@@ -1,0 +1,33 @@
+body {
+    font-size: 1.3em;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(241, 90, 115);
+    padding-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+p {margin-left: 30px;}
+
+#anni, button {
+    margin: 15px 10px;
+    padding: 8px;
+    border-color: rgb(241, 90, 115);
+    
+}
+
+button {
+    color: rgb(241, 90, 115);
+    font-size: 0.7em;
+    background-color: rgb(246, 245, 245);
+}
+
+div {
+   text-align: center;
+}
