@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Progettare una calcolatrice con JavaScript">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <title>Progetto Calcolatrice</title>
+</head>
+
+<body>
+
+    <div class="corpo">
+
+        <h1>La mia calcolatrice in JS</h1>
+
+        <div id="container">
+            <div class="schermo"><input type="text" id="display" readonly="readonly" class="diss"></div>
+            <div class="numeri"><input type="submit" id="7" class="bottNum" value="7" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="8" class="bottNum" value="8" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="9" class="bottNum" value="9" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="/" class="bottNum" value=":" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="4" class="bottNum" value="4" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="5" class="bottNum" value="5" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="6" class="bottNum" value="6" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="*" class="bottNum" value="x" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="1" class="bottNum" value="1" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="2" class="bottNum" value="2" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="3" class="bottNum" value="3" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="-" class="bottNum" value="-" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="0" class="bottNum" value="0" onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="." class="bottNum" value="." onclick="tasti(this)"></div>
+            <div class="numeri"><input type="submit" id="c" class="bottNum" value="c" onclick="cancella(this)"></div>
+            <div class="numeri"><input type="submit" id="+" class="bottNum" value="+" onclick="tasti(this)"></div>
+            <div class="uguale"><input type="submit" id="=" class="risultato" value="=" onclick="operazione()"></div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
