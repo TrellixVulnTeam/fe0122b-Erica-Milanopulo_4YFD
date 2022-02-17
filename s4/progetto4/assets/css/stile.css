@@ -34,7 +34,6 @@ h1{
     margin: 15px 20px;
     padding: 15px 20px;
 }
-   
 
 .numeri {
     display: inline;}
@@ -63,4 +62,10 @@ input {
     font-size: 4.1em;
     margin: 10px 0 10px 20px;
     color: rgb(75, 75, 151);
+    cursor: pointer;
    }
+
+input:active {
+    border: inset;
+    background-color: rgb(197, 197, 245);;
+}
