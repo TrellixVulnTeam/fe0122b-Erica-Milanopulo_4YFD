@@ -2,8 +2,19 @@ function tasti(valore) {
     let display = document.getElementById('display');
     let numero = valore.id;
     let attualeValore = display.value;
-
-       display.value += numero;
+    var charsToSearch = ["+","-","*","/",":"];
+	var lastchar =  attualeValore.charAt(attualeValore.length - 1);
+	const match = charsToSearch.find(element => {
+	  if (element.includes(lastchar)) {
+		return true;
+	  }
+	});
+	if (match !== undefined && charsToSearch.indexOf(valore.id) > -1 ) {
+	  
+	  display.value = display.value.replace(/.$/, numero);
+	}else {
+		display.value += numero;
+	}
 }
 
 function operazione() {
