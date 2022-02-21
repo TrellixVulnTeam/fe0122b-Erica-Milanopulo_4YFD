@@ -18,13 +18,10 @@ let variabilePush = persone.push('Nunzio');
 
     console.log(persone.length);
 
-var numeri  = [
-    32,
-    46,
-    9,
-    3
-]
+
 
 function oper() {
-    document.getElementById('operazione').innerHTML= numeri[1] * numeri[3];
+    var numeri  = [32, 46, 9, 3]
+    
+    document.getElementById('operazione').innerHTML= numeri[1] + numeri[3];
 }
