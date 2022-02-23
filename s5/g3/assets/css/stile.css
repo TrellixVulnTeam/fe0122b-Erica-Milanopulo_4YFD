@@ -1,0 +1,46 @@
+#navigazione li {
+list-style: none;
+margin-bottom: 20px;
+}
+
+#navigazione{
+    position: absolute;
+    top: 36px;
+    width: 200px;
+    padding: 20px 10px;
+    background-color: aqua;
+    display: none;
+    text-align: center;
+}
+
+#navhead {
+    background-color: rgb(135, 206, 228);
+    padding: 10px 30px;
+    font-size: 1.3em;
+    border: 0;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(175, 175, 42);
+}
+
+#testo1 {
+    text-align: center;
+    font-size: 3em;
+    display: none;
+}
+
+h3 {
+   margin-top: 50px;
+}
+
+#listaCose li {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
