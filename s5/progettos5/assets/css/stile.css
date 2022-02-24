@@ -1,0 +1,82 @@
+body {
+    background-image: url(../imag/sfondo.jpg); 
+    opacity: 0,3;
+    font-size: 1.3rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.todo {
+    font-size: 1.8em;
+    margin: 0 0 15px 150px;
+}
+
+.todo:hover {
+    cursor: grab;
+}
+
+.todo:active {
+    cursor: grabbing;
+}
+
+.todo button {
+    border-radius: 50%;
+    padding: 3px 10px;
+    font-size: 0.4em;
+    color: rgb(62, 139, 184);
+    border-color: rgb(62, 139, 184);
+    
+}
+    
+
+#navb {
+    background-color: rgb(62, 139, 184);
+    padding: 30px 100px;
+    margin-bottom: 90px;
+}
+
+h1 {
+    text-align: left;
+    color: rgb(45, 89, 114);
+    margin-bottom: 40px;
+    margin-left: 160px;
+    font-size: 2.3em;
+}
+
+#logo {
+    font-size: 1.5em;
+}
+
+#contenitore {
+    margin-bottom: 70px;
+}
+
+#add {
+    width: 50%;
+    height: 60px;
+    background-color: rgb(62, 139, 184);
+    color: #fff;
+}
+
+#testo {
+    width: 90%;
+    height: 60px;
+    margin-left: 150px;
+    padding-left: 15px;
+}
+
+
+/*Media Queries*/
+@media screen and (max-width: 991px) {
+    #add {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #testo, .todo {
+        margin-left: 0;
+    }
+
+    h1 {
+        margin-left: 10px;
+    }
+}
