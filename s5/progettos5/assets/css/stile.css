@@ -6,16 +6,8 @@ body {
 }
 
 .todo {
-    font-size: 1.8em;
+    font-size: 1.6em;
     margin: 0 0 15px 150px;
-}
-
-.todo:hover {
-    cursor: grab;
-}
-
-.todo:active {
-    cursor: grabbing;
 }
 
 .todo button {
@@ -26,7 +18,14 @@ body {
     border-color: rgb(62, 139, 184);
     
 }
+
+.todo button:hover {
+    cursor: grab;
+}
     
+.todo button:active {
+    cursor: grabbing;
+}
 
 #navb {
     background-color: rgb(62, 139, 184);
