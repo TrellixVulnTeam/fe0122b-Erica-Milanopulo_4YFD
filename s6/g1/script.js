@@ -40,18 +40,15 @@ function ripetiEmail() {
 ripetiEmail();
 
 //INVIO FORM O SEGNALAZIONE ERRORE
-function invia() {
-    let tuttoForm = $('form').val();
+$('#iscr-news').click(() => {
+let control = $('input').val();
 
-    if (tuttoForm) {
-        $('form').submit();
-    } else {
-        alert('Compila il form')
-    }
-};
-invia();
-
-
+if(control != ""){
+    $('#form-email').submit();
+}else{
+    alert('Il form non è stato compilato correttamente')
+}
+})
 
 //RESET
 function resettare() {
