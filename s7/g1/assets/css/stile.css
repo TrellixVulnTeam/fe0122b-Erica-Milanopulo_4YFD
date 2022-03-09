@@ -1,0 +1,45 @@
+body {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(8deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    width: 500px;
+    height: 430px;
+    padding: 5%;
+    box-shadow: 2px 3px 5px gray;
+    margin: 5%;
+    border-radius: 20px;
+    background-color: white;
+        
+}
+
+h1{
+    margin-top: 30px;
+ margin-left: 60px;
+}
+
+#span {
+    display: flex;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: red;
+}
+
+div {
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+
+.pippo {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 1.3em;
+}
