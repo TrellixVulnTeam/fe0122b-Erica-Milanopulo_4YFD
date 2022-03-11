@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(218, 213, 213);
+}
+.tabella {
+    width: 90%;
+    height: auto;
+    position: relative;
+    margin: 2% 5%;
+    border-style: double;
+    border-color: aquamarine;
+    padding: 5%;
+    background-color: azure;
+    font-size: 13px;
+}
+
+button {
+    border: none;
+    box-shadow: 2px 3px azure;
+    font-size: 9px;
+    background-color: transparent;
+}
+
+.aggiungi{
+    background-color: rgb(47, 199, 47);
+    color: white;
+    font-size: 11px;
+    padding: 1px 5px;
+    text-decoration: none;
+  
+}
+
+.elimina {
+    background-color: red;
+    color: white;
+    font-size: 10px;  
+    margin-right: 7px;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+td {
+    padding: 15px 0;
+}
+
+#nuovo{
+    background-color: rgb(38, 113, 212);
+    color: white;
+    font-size: 15px;  
+    margin-right: 7px;
+    margin-top: 12px;
+    margin-left: 48px;
+    padding: 5px;
+}
