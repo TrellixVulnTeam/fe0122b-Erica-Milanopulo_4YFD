@@ -19,9 +19,9 @@ fetch(
     {
         method: 'POST', // or 'PUT'
         headers: {
-            'Content-Type': 'application/json',
+            'Content-Type': 'application/json', //stiamo dicendo che la risposta che vogliamo è in json
         },
-        body: JSON.stringify({
+        body: JSON.stringify({      //sono gli elementi che richiediamo
             name : nome,
             lastname : cognome,
             email : email,
