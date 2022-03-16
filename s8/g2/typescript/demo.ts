@@ -46,9 +46,21 @@ class MotherAccount extends SonAccount {
     
 }
 
-//oggetti
 let madre = new MotherAccount(1000);
+
+
 let figlio = new SonAccount(2000);
+let saldoCorrente: any = document.querySelector('#saldoCorrente');
+saldoCorrente.value = figlio.balanceInit;
+
+
+let versa: any = document.querySelector('#versa');
+versa.addEventListener('click', function(){
+   
+    var num: number = Number((<HTMLInputElement>document.querySelector('#versa')).value);
+    figlio.oneDeposit(num)
+
+})
 
 //output
 console.log('Versamento nel conto del figlio: ' + figlio.oneDeposit(100));
@@ -65,6 +77,7 @@ console.log(madre.balanceInit);
 console.log(madre.addInterest());
 
 
+let soldiPiu = document.querySelector('#versamento');
 
 
 

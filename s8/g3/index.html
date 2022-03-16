@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stile.css">
+    <title>Esercizio s8g3</title>
+</head>
+
+<body>
+    <h1>Calcolatore di tasse online</h1>
+
+    <!--EDILIZIA-->
+    <hr>
+    <h2> Edilizia</h2>
+    <p>Inserisci qui il tuo reddito annuo lordo per calcolare le tasse</p>
+    <input type="text" name="" id="Reddito"> <button id="newCalc">Calcola</button>
+
+<br>
+    <label for="inps">Inps: </label> <input type="text" name="inps" id="inps"> <br> <br>
+    <label for="irpef">Irpef: </label> <input type="text" name="irpef" id="irpef"> <br> <br>
+    <label for="tasse">Tasse: </label> <input type="text" name="tasse" id="tasse"> <br> <br>
+    <label for="ReddN">Reddito netto: </label> <input type="text" name="ReddN" id="ReddN"> <br>
+
+
+    <div style="display: none;" id="calcolaReddN">
+        <p>Calcola il tuo reddito netto</p>
+        <button>Calcola</button>
+        <p>Il reddito netto è: </p>
+    </div>
+
+    <!--AVVOCATI-->
+    <hr>
+    <h2>Avvocati</h2>
+    <p>Inserisci qui il tuo reddito annuo lordo per calcolare le tasse</p>
+    <input type="text" name="" id="Reddito1"> <button id="newCalc1">Calcola</button>
+    
+<br>
+
+<label for="inps1">Inps: </label> <input type="text" name="inps1" id="inps1"> <br> <br>
+<label for="irpef1">Irpef: </label> <input type="text" name="irpef1" id="irpef1"> <br> <br>
+<label for="tasse1">Tasse: </label> <input type="text" name="tasse1" id="tasse1"> <br> <br>
+<label for="ReddN1">Reddito netto: </label> <input type="text" name="ReddN1" id="ReddN1"> <br>
+
+    <div style="display: none;" id="calcolaReddN1">
+        <p>Calcola il tuo reddito netto</p>
+        <button>Calcola</button>
+        <p>Il reddito netto è: </p>
+    </div>
+
+
+
+    <script src="typescript/script.js"></script>
+</body>
+
+</html>

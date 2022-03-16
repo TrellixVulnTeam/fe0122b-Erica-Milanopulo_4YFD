@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color:  rgb(202, 44, 44);
+}
+
+#newCalc, #newCalc1 {
+    margin-bottom: 10px;
+}

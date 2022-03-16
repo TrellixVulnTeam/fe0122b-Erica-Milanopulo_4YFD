@@ -46,9 +46,15 @@ var MotherAccount = /** @class */ (function (_super) {
     };
     return MotherAccount;
 }(SonAccount));
-//oggetti
 var madre = new MotherAccount(1000);
 var figlio = new SonAccount(2000);
+var saldoCorrente = document.querySelector('#saldoCorrente');
+saldoCorrente.value = figlio.balanceInit;
+var versa = document.querySelector('#versa');
+versa.addEventListener('click', function () {
+    var num = Number(document.querySelector('#versa').value);
+    figlio.oneDeposit(num);
+});
 //output
 console.log('Versamento nel conto del figlio: ' + figlio.oneDeposit(100));
 console.log('Saldo aggiornato dopo versamento: ' + figlio.balanceInit);
@@ -61,3 +67,4 @@ console.log(madre.oneDeposit(1800));
 console.log(madre.oneDeposit(800));
 console.log(madre.balanceInit);
 console.log(madre.addInterest());
+var soldiPiu = document.querySelector('#versamento');
