@@ -1,0 +1,35 @@
+body{
+    font-size: 1.3rem;
+    font-family: 'Signika Negative', sans-serif;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+#contenitore {
+    position: absolute;
+    top: 90px;
+    left: 500px;
+    width: 1000px;
+    height: 700px;
+    border: 2px solid black;
+    padding: 15px 40px;
+    outline: 3px solid #4e3abd;
+    outline-offset: 10px;
+    background-color: rgb(245, 242, 239);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.3em;
+    text-shadow: 2px 2px #4e3abd;
+}
+
+.giu {
+    margin-bottom: 45px;
+}
+
+h2{
+    color: #3722ac ;
+}
+
