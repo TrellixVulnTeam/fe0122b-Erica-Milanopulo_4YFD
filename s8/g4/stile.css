@@ -1,0 +1,46 @@
+#telefono{
+
+    position: relative;
+    border: 2px solid black;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    margin: 40px 60px;
+    border-radius: 20px;
+}
+
+.bi-telephone{
+    font-size: 1.6em;
+    margin-right: 20px;
+    position: absolute;
+    top: 87%;
+    left: 10%;
+}
+
+.bi-plus-square-fill{
+    font-size: 1.6em;
+    margin-right: 20px;
+    position: absolute;
+    top: 87%;
+    left:76%
+}
+
+#telefono1, #telefono2{
+    position: relative;
+    border: 2px solid black;
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    margin: 40px 60px;
+    border-radius: 20px;
+}
+
+h2{
+    margin-left: 70px;
+    color: rgb(189, 39, 39);
+}
+
+h3{
+    margin-left: 20px;
+}
+
