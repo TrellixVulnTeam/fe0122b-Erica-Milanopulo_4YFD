@@ -1,0 +1,47 @@
+.navbar-light{
+    background-image: linear-gradient(to right, #ee0000 0%, #ffffff 50%, #098b1b 100%);
+    height: 140px;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    margin-left: 700px;
+}
+
+
+.d-inline-block{
+    width:100px;
+    height: auto;
+    margin-left: 700px;
+}
+
+#regione, #provincia {
+    display: inline-block;
+    width: 20%;
+    margin-top: 30px;
+}
+
+#regione{
+    margin-left: 600px;
+}
+
+#striscia{
+    background-image: linear-gradient(to right, #ee0000 0%, #ffffff 50%, #098b1b 100%);
+    height:30px;
+    margin: 20px 0;
+}
+
+.col-md-3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+img{
+    margin-bottom: 40px;
+    width: 150px;
+
+height: auto;}
